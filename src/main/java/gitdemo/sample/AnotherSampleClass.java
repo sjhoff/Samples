@@ -1,19 +1,18 @@
 package gitdemo.sample;
 
 public class AnotherSampleClass {
-	private String nustring;
+	private String nuString;
 	private double wage;
-	
-	public AnotherSampleClass(String nustring, double wage) {
+	public AnotherSampleClass(String nuString, double wage) {
 		super();
-		this.nustring = nustring;
+		this.nuString = nuString;
 		this.wage = wage;
 	}
-	public String getNustring() {
-		return nustring;
+	public String getNuString() {
+		return nuString;
 	}
-	public void setNustring(String nustring) {
-		this.nustring = nustring;
+	public void setNuString(String nuString) {
+		this.nuString = nuString;
 	}
 	public double getWage() {
 		return wage;

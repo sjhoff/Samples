@@ -7,7 +7,9 @@ public class SampleUI {
 		System.out.println("this is person 1: "+samp.getName());
 		System.out.println("this is person 2: "+ samp2.getName());
 		
-		AnotherSampleClass asamp = new AnotherSampleClass("this is an addition to previous git uploaded code", 20.02d);
-		System.out.println(asamp.getNustring()+" and here's a number "+asamp.getWage());
+		AnotherSampleClass asamp = new AnotherSampleClass("this is an additional piece of code to show git push, merge conflict #2", 20.02d);
+		System.out.println(asamp.getNuString()+", here's a number "+asamp.getWage());
+		
+		System.out.println("another line for another commit");
 	}
 }
